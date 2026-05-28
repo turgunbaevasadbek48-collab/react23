@@ -1,4 +1,4 @@
-import { first_list, six_list } from '../../components/banner/Banner'
+import { first_list, six_list } from '../../banner/Banner'
 import get1 from '../../assets/get1.png'
 import get3 from '../../assets/get3.png'
 import get4 from '../../assets/get4.png'
@@ -6,7 +6,7 @@ import get9 from '../../assets/get9.png'
 import 'swiper/css';
 import { Link } from 'react-router-dom';
 import { Autoplay, Navigation } from 'swiper/modules'
-import Meals from '../../components/meals/Meals';
+import Meals from '../../meals/Meals';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
